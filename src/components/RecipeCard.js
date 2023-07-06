@@ -1,6 +1,5 @@
 import React from 'react';
 import { Card, Button } from 'react-bootstrap';
-
 const RecipeCard = ({ title, ingredients, instructions }) => {
   return (
     <Card>
