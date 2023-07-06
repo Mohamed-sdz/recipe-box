@@ -7,7 +7,7 @@ function RecipeDetails() {
   const [recipe, setRecipe] = useState(null);
 
   useEffect(() => {
-    fetch(`http://localhost:3000/recipes/${id}`)
+    fetch(`http://localhost:3001/recipes/${id}`)
       .then((response) => response.json())
       .then((data) => setRecipe(data));
   }, [id]);

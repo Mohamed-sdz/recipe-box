@@ -15,7 +15,7 @@ function RecipeCreate() {
       description,
     };
 
-    fetch('http://localhost:3000/recipes', {
+    fetch('http://localhost:3001/recipes', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(newRecipe),

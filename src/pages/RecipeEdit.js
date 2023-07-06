@@ -11,7 +11,7 @@ function RecipeEdit() {
   const [description, setDescription] = useState('');
 
   useEffect(() => {
-    fetch(`http://localhost:3000/recipes/${id}`)
+    fetch(`http://localhost:3001/recipes/${id}`)
       .then((response) => response.json())
       .then((data) => {
         setRecipe(data);
@@ -28,7 +28,7 @@ function RecipeEdit() {
       description,
     };
 
-    fetch(`http://localhost:3000/recipes/${id}`, {
+    fetch(`http://localhost:3001/recipes/${id}`, {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(updatedRecipe),
