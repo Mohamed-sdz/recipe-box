@@ -1,6 +1,5 @@
 import React from 'react';
 import { Form, Button } from 'react-bootstrap';
-
 const RecipeForm = () => {
   return (
     <Form>
