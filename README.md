@@ -40,7 +40,7 @@ The Recipe Box Single Page Application is a web application built with React and
 3. Start the frontend development server:
 
    npm start
-   
+
 4. Open another terminal window, navigate to the backend folder, and start the json-server:
 
    cd backend
@@ -65,4 +65,4 @@ Contributions are welcome! If you have any suggestions, improvements, or bug fix
 
 This project is licensed under the MIT License.
 
-Feel free to customize the content based on your specific project details. Include any additional sections or instructions that are relevant to your application.
+
