@@ -40,11 +40,9 @@ The Recipe Box Single Page Application is a web application built with React and
 3. Start the frontend development server:
 
    npm start
-
-
+   
 4. Open another terminal window, navigate to the backend folder, and start the json-server:
 
-   
    cd backend
    json-server --watch db.json --port 3001
 
