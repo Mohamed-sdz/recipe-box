@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Card, Button } from 'react-bootstrap';
-
 function RecipeDetails() {
   const { id } = useParams();
   const [recipe, setRecipe] = useState(null);
